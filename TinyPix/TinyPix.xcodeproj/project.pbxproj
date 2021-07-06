@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7446272A26873C9500EFF941 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7446272926873C9500EFF941 /* AppDelegate.m */; };
+		7446272D26873C9500EFF941 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7446272C26873C9500EFF941 /* SceneDelegate.m */; };
+		7446273326873C9500EFF941 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7446273126873C9500EFF941 /* Main.storyboard */; };
+		7446273526873C9600EFF941 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7446273426873C9600EFF941 /* Assets.xcassets */; };
+		7446273826873C9600EFF941 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7446273626873C9600EFF941 /* LaunchScreen.storyboard */; };
+		7446273B26873C9600EFF941 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7446273A26873C9600EFF941 /* main.m */; };
+		7446274526873C9600EFF941 /* TinyPixTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7446274426873C9600EFF941 /* TinyPixTests.m */; };
+		7446275026873C9600EFF941 /* TinyPixUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7446274F26873C9600EFF941 /* TinyPixUITests.m */; };
+		7446275F26873D3500EFF941 /* TinyPixDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 7446275E26873D3500EFF941 /* TinyPixDocument.m */; };
+		744627622687429200EFF941 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 744627612687429200EFF941 /* MasterViewController.m */; };
+		74462765268742A200EFF941 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74462764268742A200EFF941 /* DetailViewController.m */; };
+		74462768268B787C00EFF941 /* TinyPixUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 74462767268B787C00EFF941 /* TinyPixUtils.m */; };
+		7446276B268C746000EFF941 /* TinyPixView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7446276A268C746000EFF941 /* TinyPixView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7446274126873C9600EFF941 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7446271D26873C9500EFF941 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7446272426873C9500EFF941;
+			remoteInfo = TinyPix;
+		};
+		7446274C26873C9600EFF941 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7446271D26873C9500EFF941 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7446272426873C9500EFF941;
+			remoteInfo = TinyPix;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7446272526873C9500EFF941 /* TinyPix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinyPix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7446272826873C9500EFF941 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7446272926873C9500EFF941 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7446272B26873C9500EFF941 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		7446272C26873C9500EFF941 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		7446273226873C9500EFF941 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7446273426873C9600EFF941 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7446273726873C9600EFF941 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7446273926873C9600EFF941 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7446273A26873C9600EFF941 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7446274026873C9600EFF941 /* TinyPixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinyPixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7446274426873C9600EFF941 /* TinyPixTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TinyPixTests.m; sourceTree = "<group>"; };
+		7446274626873C9600EFF941 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7446274B26873C9600EFF941 /* TinyPixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinyPixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7446274F26873C9600EFF941 /* TinyPixUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TinyPixUITests.m; sourceTree = "<group>"; };
+		7446275126873C9600EFF941 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7446275D26873D3500EFF941 /* TinyPixDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TinyPixDocument.h; sourceTree = "<group>"; };
+		7446275E26873D3500EFF941 /* TinyPixDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TinyPixDocument.m; sourceTree = "<group>"; };
+		744627602687429200EFF941 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		744627612687429200EFF941 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		74462763268742A200EFF941 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		74462764268742A200EFF941 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		74462766268B787C00EFF941 /* TinyPixUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TinyPixUtils.h; sourceTree = "<group>"; };
+		74462767268B787C00EFF941 /* TinyPixUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TinyPixUtils.m; sourceTree = "<group>"; };
+		74462769268C746000EFF941 /* TinyPixView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TinyPixView.h; sourceTree = "<group>"; };
+		7446276A268C746000EFF941 /* TinyPixView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TinyPixView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7446272226873C9500EFF941 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7446273D26873C9600EFF941 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7446274826873C9600EFF941 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7446271C26873C9500EFF941 = {
+			isa = PBXGroup;
+			children = (
+				74462766268B787C00EFF941 /* TinyPixUtils.h */,
+				74462767268B787C00EFF941 /* TinyPixUtils.m */,
+				7446272726873C9500EFF941 /* TinyPix */,
+				7446274326873C9600EFF941 /* TinyPixTests */,
+				7446274E26873C9600EFF941 /* TinyPixUITests */,
+				7446272626873C9500EFF941 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7446272626873C9500EFF941 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7446272526873C9500EFF941 /* TinyPix.app */,
+				7446274026873C9600EFF941 /* TinyPixTests.xctest */,
+				7446274B26873C9600EFF941 /* TinyPixUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7446272726873C9500EFF941 /* TinyPix */ = {
+			isa = PBXGroup;
+			children = (
+				74462769268C746000EFF941 /* TinyPixView.h */,
+				7446276A268C746000EFF941 /* TinyPixView.m */,
+				7446272826873C9500EFF941 /* AppDelegate.h */,
+				7446272926873C9500EFF941 /* AppDelegate.m */,
+				7446272B26873C9500EFF941 /* SceneDelegate.h */,
+				7446272C26873C9500EFF941 /* SceneDelegate.m */,
+				7446273126873C9500EFF941 /* Main.storyboard */,
+				7446273426873C9600EFF941 /* Assets.xcassets */,
+				7446273626873C9600EFF941 /* LaunchScreen.storyboard */,
+				7446273926873C9600EFF941 /* Info.plist */,
+				7446273A26873C9600EFF941 /* main.m */,
+				7446275D26873D3500EFF941 /* TinyPixDocument.h */,
+				7446275E26873D3500EFF941 /* TinyPixDocument.m */,
+				744627602687429200EFF941 /* MasterViewController.h */,
+				744627612687429200EFF941 /* MasterViewController.m */,
+				74462763268742A200EFF941 /* DetailViewController.h */,
+				74462764268742A200EFF941 /* DetailViewController.m */,
+			);
+			path = TinyPix;
+			sourceTree = "<group>";
+		};
+		7446274326873C9600EFF941 /* TinyPixTests */ = {
+			isa = PBXGroup;
+			children = (
+				7446274426873C9600EFF941 /* TinyPixTests.m */,
+				7446274626873C9600EFF941 /* Info.plist */,
+			);
+			path = TinyPixTests;
+			sourceTree = "<group>";
+		};
+		7446274E26873C9600EFF941 /* TinyPixUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7446274F26873C9600EFF941 /* TinyPixUITests.m */,
+				7446275126873C9600EFF941 /* Info.plist */,
+			);
+			path = TinyPixUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7446272426873C9500EFF941 /* TinyPix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7446275426873C9600EFF941 /* Build configuration list for PBXNativeTarget "TinyPix" */;
+			buildPhases = (
+				7446272126873C9500EFF941 /* Sources */,
+				7446272226873C9500EFF941 /* Frameworks */,
+				7446272326873C9500EFF941 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TinyPix;
+			productName = TinyPix;
+			productReference = 7446272526873C9500EFF941 /* TinyPix.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7446273F26873C9600EFF941 /* TinyPixTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7446275726873C9600EFF941 /* Build configuration list for PBXNativeTarget "TinyPixTests" */;
+			buildPhases = (
+				7446273C26873C9600EFF941 /* Sources */,
+				7446273D26873C9600EFF941 /* Frameworks */,
+				7446273E26873C9600EFF941 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7446274226873C9600EFF941 /* PBXTargetDependency */,
+			);
+			name = TinyPixTests;
+			productName = TinyPixTests;
+			productReference = 7446274026873C9600EFF941 /* TinyPixTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7446274A26873C9600EFF941 /* TinyPixUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7446275A26873C9600EFF941 /* Build configuration list for PBXNativeTarget "TinyPixUITests" */;
+			buildPhases = (
+				7446274726873C9600EFF941 /* Sources */,
+				7446274826873C9600EFF941 /* Frameworks */,
+				7446274926873C9600EFF941 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7446274D26873C9600EFF941 /* PBXTargetDependency */,
+			);
+			name = TinyPixUITests;
+			productName = TinyPixUITests;
+			productReference = 7446274B26873C9600EFF941 /* TinyPixUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7446271D26873C9500EFF941 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					7446272426873C9500EFF941 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					7446273F26873C9600EFF941 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 7446272426873C9500EFF941;
+					};
+					7446274A26873C9600EFF941 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 7446272426873C9500EFF941;
+					};
+				};
+			};
+			buildConfigurationList = 7446272026873C9500EFF941 /* Build configuration list for PBXProject "TinyPix" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7446271C26873C9500EFF941;
+			productRefGroup = 7446272626873C9500EFF941 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7446272426873C9500EFF941 /* TinyPix */,
+				7446273F26873C9600EFF941 /* TinyPixTests */,
+				7446274A26873C9600EFF941 /* TinyPixUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7446272326873C9500EFF941 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7446273826873C9600EFF941 /* LaunchScreen.storyboard in Resources */,
+				7446273526873C9600EFF941 /* Assets.xcassets in Resources */,
+				7446273326873C9500EFF941 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7446273E26873C9600EFF941 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7446274926873C9600EFF941 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7446272126873C9500EFF941 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7446276B268C746000EFF941 /* TinyPixView.m in Sources */,
+				7446272A26873C9500EFF941 /* AppDelegate.m in Sources */,
+				7446273B26873C9600EFF941 /* main.m in Sources */,
+				744627622687429200EFF941 /* MasterViewController.m in Sources */,
+				7446272D26873C9500EFF941 /* SceneDelegate.m in Sources */,
+				74462768268B787C00EFF941 /* TinyPixUtils.m in Sources */,
+				7446275F26873D3500EFF941 /* TinyPixDocument.m in Sources */,
+				74462765268742A200EFF941 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7446273C26873C9600EFF941 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7446274526873C9600EFF941 /* TinyPixTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7446274726873C9600EFF941 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7446275026873C9600EFF941 /* TinyPixUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7446274226873C9600EFF941 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7446272426873C9500EFF941 /* TinyPix */;
+			targetProxy = 7446274126873C9600EFF941 /* PBXContainerItemProxy */;
+		};
+		7446274D26873C9600EFF941 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7446272426873C9500EFF941 /* TinyPix */;
+			targetProxy = 7446274C26873C9600EFF941 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7446273126873C9500EFF941 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7446273226873C9500EFF941 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7446273626873C9600EFF941 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7446273726873C9600EFF941 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7446275226873C9600EFF941 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7446275326873C9600EFF941 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7446275526873C9600EFF941 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FLTLUWV8X3;
+				INFOPLIST_FILE = TinyPix/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenPix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7446275626873C9600EFF941 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FLTLUWV8X3;
+				INFOPLIST_FILE = TinyPix/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenPix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7446275826873C9600EFF941 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FLTLUWV8X3;
+				INFOPLIST_FILE = TinyPixTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.TinyPixTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TinyPix.app/TinyPix";
+			};
+			name = Debug;
+		};
+		7446275926873C9600EFF941 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FLTLUWV8X3;
+				INFOPLIST_FILE = TinyPixTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.TinyPixTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TinyPix.app/TinyPix";
+			};
+			name = Release;
+		};
+		7446275B26873C9600EFF941 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FLTLUWV8X3;
+				INFOPLIST_FILE = TinyPixUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.TinyPixUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TinyPix;
+			};
+			name = Debug;
+		};
+		7446275C26873C9600EFF941 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FLTLUWV8X3;
+				INFOPLIST_FILE = TinyPixUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.TinyPixUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TinyPix;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7446272026873C9500EFF941 /* Build configuration list for PBXProject "TinyPix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7446275226873C9600EFF941 /* Debug */,
+				7446275326873C9600EFF941 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7446275426873C9600EFF941 /* Build configuration list for PBXNativeTarget "TinyPix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7446275526873C9600EFF941 /* Debug */,
+				7446275626873C9600EFF941 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7446275726873C9600EFF941 /* Build configuration list for PBXNativeTarget "TinyPixTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7446275826873C9600EFF941 /* Debug */,
+				7446275926873C9600EFF941 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7446275A26873C9600EFF941 /* Build configuration list for PBXNativeTarget "TinyPixUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7446275B26873C9600EFF941 /* Debug */,
+				7446275C26873C9600EFF941 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7446271D26873C9500EFF941 /* Project object */;
+}
