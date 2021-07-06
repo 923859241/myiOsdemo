@@ -1,0 +1,6 @@
+framework module Pods_SlowWorker {
+  umbrella header "Pods-SlowWorker-umbrella.h"
+
+  export *
+  module * { export * }
+}
